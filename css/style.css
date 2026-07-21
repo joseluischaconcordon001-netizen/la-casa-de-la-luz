@@ -464,7 +464,7 @@ HAMADRÍADES
 
     max-width: 600px;
 
-    margin: 140px auto 180px auto;
+    margin: 33px auto 180px auto;
 
     text-align: center;
 
@@ -558,4 +558,101 @@ HAMADRÍADES
 
     min-height:70vh;
 
+}
+
+/* ===========================
+   CUADERNOS
+=========================== */
+
+.biblioteca{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:7rem;
+    margin-top:5rem;
+}
+
+.cuaderno{
+    width:220px;
+    text-align:center;
+}
+
+.cuaderno img{
+    width:100%;
+    height:auto;
+    display:block;
+    transition:.35s ease;
+}
+
+.cuaderno img:hover{
+    transform:scale(1.03);
+}
+
+.cuaderno a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.cuaderno h3{
+    margin-top:1.6rem;
+    font-size:0.9rem;
+    letter-spacing:.15em;
+    text-transform:uppercase;
+}
+
+.cuaderno p{
+    margin-top:.4rem;
+    font-style:italic;
+}
+.cuaderno img{
+    width:100%;
+    display:block;
+
+    border:1px solid rgba(0,0,0,.09);
+
+    box-shadow:
+        0 2px 10px rgba(0,0,0,.09);
+}
+/* ===========================
+   PÁGINA DEL CUADERNO
+=========================== */
+
+.portada-cuaderno{
+    display:flex;
+    justify-content:center;
+    margin:4rem 0 5rem;
+}
+
+.portada-cuaderno img{
+    width:330px;
+    height:auto;
+    box-shadow:0 2px 10px rgba(0,0,0,.07);
+    transition:.35s ease;
+}
+
+.portada-cuaderno img:hover{
+    transform:scale(1.02);
+}
+
+/* ===========================
+   VISOR BLURB
+=========================== */
+
+.visor-cuaderno{
+    max-width:1200px;
+    margin:5rem auto 8rem;
+}
+
+.visor-cuaderno iframe{
+    width: 100%;
+    height: 900px;
+    border: none;
+}
+.inicio-lectura{
+    text-align:center;
+    font-family:'EB Garamond', serif;
+    font-style:italic;
+    font-size:1rem;
+    color:#6b665d;
+    margin:3rem 0 2rem;
 }
