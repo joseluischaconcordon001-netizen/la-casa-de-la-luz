@@ -568,12 +568,12 @@ HAMADRÍADES
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    gap:7rem;
+    gap:35px;
     margin-top:5rem;
 }
 
 .cuaderno{
-    width:220px;
+    width:180px;
     text-align:center;
 }
 
