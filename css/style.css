@@ -452,6 +452,56 @@ HAMADRÍADES
    LA MIRADA
 =========================== */
 
+/* ==========================
+   PÁGINAS DE TEXTO
+   ========================== */
+
+.book-page {
+    max-width: 680px;
+    margin-left: 9rem;
+
+    font-family: "EB Garamond", serif;
+    font-size: 1.15rem;
+    line-height: 2.05;
+    color: #242424;
+}
+
+.book-page p{
+    margin-bottom: 1.6rem;
+}
+
+/* Tablet */
+
+@media (max-width: 1024px){
+
+    .book-page{
+        max-width: 680px;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+}
+
+/* Móvil */
+
+@media (max-width: 768px){
+
+    .book-page{
+
+        max-width: none;
+
+        margin: 0;
+
+        padding: 0 2rem;
+
+        font-size: 1.08rem;
+
+        line-height: 1.95;
+
+    }
+
+}
+
 .mirada{
 
     max-width: 900px;
@@ -459,6 +509,7 @@ HAMADRÍADES
     margin: 0 auto;
 
 }
+
 
 .cita{
 
@@ -514,10 +565,10 @@ HAMADRÍADES
 
 }
 .texto-mirada{
-    max-width:700px;
-    margin-left:0;
-    margin-right:auto;
+    max-width: 680px;
+    margin-left: 9rem;
 }
+
 
     font-family:'EB Garamond', serif;
 
@@ -529,11 +580,11 @@ HAMADRÍADES
 
 }
 
-.texto-mirada p{
-
-    margin-bottom:2.8rem;
-
+.texto-mirada{
+    max-width: 600px;
+    margin: 0 auto;
 }
+
 .autorretrato{
     margin-top: 220px;
     text-align: center;
@@ -690,4 +741,87 @@ HAMADRÍADES
     .biblioteca{
         grid-template-columns:1fr;
     }
+}
+
+/* ==========================
+   MÓVIL
+========================== */
+
+@media (max-width: 768px) {
+
+    .home-content{
+        width: 100%;
+        padding: 0 2rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .home h1{
+        text-align: center;
+    }
+
+    .home p{
+        text-align: center;
+    }
+
+    .entrar{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .home{
+
+        justify-content:center;
+        align-items:center;
+
+        padding-left:2rem;
+        padding-right:2rem;
+        padding-top:8vh;
+
+        text-align:center;
+
+    }
+
+    .home-content{
+
+        width:100%;
+        max-width:500px;
+        margin:0 auto;
+
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+    .home-content{
+        width:80%;
+        margin:0 auto;
+        text-align:center;
+    }
+
+}@media (min-width:769px) and (max-width:1024px){
+
+    .home{
+
+        justify-content:center;
+
+        padding-left:3rem;
+        padding-right:3rem;
+
+    }
+
+    .home-content{
+
+        width:100%;
+        max-width:600px;
+        margin:0 auto;
+        text-align:center;
+
+    }
+
 }
