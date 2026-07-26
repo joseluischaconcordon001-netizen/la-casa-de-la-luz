@@ -769,6 +769,11 @@ HAMADRÍADES
         margin-right: auto;
     }
 
+    .home h1{
+    font-size: clamp(2.8rem, 10vw, 5.5rem);
+    line-height: 0.9;
+}
+
 }
 
 @media (max-width:768px){
