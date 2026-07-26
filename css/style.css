@@ -24,17 +24,18 @@ body{
 }
 
 .home{
-
     min-height:100vh;
 
-    display:inline-block;
-
+    display:flex;
     align-items:flex-start;
 
     padding-left:12%;
-
     padding-top:14vh;
 
+    background-image:url("../images/portada.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
 }
 
 .home-content{
@@ -87,13 +88,15 @@ body{
 
     font-family:'Inter', sans-serif;
 
-    font-size:.82rem;
+    font-size:.99rem;
 
-    letter-spacing:.18em;
+    font-weight: 600;
+
+    letter-spacing:.27em;
 
     text-transform:uppercase;
 
-    color:#4B4742;
+    color:#2A2724;
 
     border-bottom:1px solid transparent;
 
@@ -105,7 +108,7 @@ body{
 
 .entrar:hover{
 
-    border-color:#4B4742;
+    border-color:#2A2724;
 
 }/*--------------------------------------------------
 EL RECORRIDO
