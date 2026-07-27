@@ -218,7 +218,7 @@ EL RECORRIDO
 
 .recorrido{
 
-    max-width:700px;
+    max-width:2100px;
 
     padding:170px 0 220px 12%;
 
@@ -832,4 +832,28 @@ HAMADRÍADES
 
     }
 
+}
+
+.recorrido{
+    position: relative;
+}
+
+.recorrido-fondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../images/portadarecorrido.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+
+    z-index: 0;
+}
+
+.recorrido > *:not(.recorrido-fondo){
+    position: relative;
+    z-index: 1;
 }
