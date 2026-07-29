@@ -766,27 +766,33 @@ HAMADRÍADES
 @media (max-width: 768px) {
 
     .home-content{
-        width: 100%;
-        padding: 0 2rem;
-        text-align: center;
-        margin: 0 auto;
-    }
+    width:100%;
+    padding:0 2rem;
+    text-align:center;
+    margin:0 auto;
+
+    position:relative;
+    top:-90px;
+}
 
     .home h1{
         text-align: center;
     }
 
     .home p{
-    text-align: left;
+    text-align: center;
 }
 
 .entrar{
-    display: inline-block;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:333px;   /* iremos ajustando este valor */
 }
 
     
     .home h1{
-    font-size: clamp(2.8rem, 10vw, 5.5rem);
+    font-size: clamp(2.1rem, 6vw, 4.8rem);
     line-height: 0.9;
 }
 
@@ -884,4 +890,36 @@ HAMADRÍADES
     font-style:italic;
     font-size:.95rem;
     line-height:1.8;
+}
+/* ==========================
+   PORTADA PARA MÓVIL
+========================== */
+
+@media (max-width:768px) {
+
+    .home{
+
+        background-image: url("../images/portada-movil.jpg");
+        background-size: cover;
+        background-position: 60% center;
+
+    }
+
+    .home-content{
+
+        margin-top:-276px;
+        
+    }
+
+}
+@media (max-width:768px){
+
+    .recorrido-fondo{
+        display: none;
+    }
+
+    .recorrido{
+        background-color: #F4F0E8;
+    }
+
 }
