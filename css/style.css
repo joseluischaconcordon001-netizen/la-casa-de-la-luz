@@ -568,18 +568,30 @@ HAMADRÍADES
 
 }
 .texto-mirada{
-    max-width: 680px;
+    max-width: 560px;
     margin-left: 9rem;
 }
+.texto-firsds{
 
+    max-width:560px;
+    margin:95px auto 0 auto;
 
     font-family:'EB Garamond', serif;
-
-    font-size:1.15rem;
-
-    line-height:2.05;
-
+    font-size:1.22rem;
+    line-height:1.85;
     color:#47423d;
+
+}
+
+.texto-firsds p{
+
+    margin-bottom:2.2rem;
+
+}
+
+.texto-firsds p:last-child{
+
+    margin-bottom:0;
 
 }
 
@@ -589,19 +601,20 @@ HAMADRÍADES
 }
 
 .autorretrato{
-    margin-top: 220px;
-    text-align: center;
-}
-.autorretrato img{
-    width: 240px;
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-}
-.autorretrato{
-    margin-top:220px;
+
+    margin-top:260px;
     margin-bottom:220px;
     text-align:center;
+
+}
+
+.autorretrato img{
+
+    width:240px;
+    max-width:100%;
+    display:block;
+    margin:0 auto;
+
 }
 
 .conversar{
