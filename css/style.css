@@ -938,5 +938,20 @@ HAMADRÍADES
 
 }
 
+@media (max-width:768px){
 
+    .cabecera-serie{
+        width:100%;
+        box-sizing:border-box;
+        padding:0 2rem;
+        text-align:center;
+    }
+
+    .cabecera-serie h1{
+        font-size:2rem;
+        line-height:1.05;
+        overflow-wrap:break-word;
+    }
+
+}
 
