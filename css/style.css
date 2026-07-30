@@ -947,14 +947,5 @@ HAMADRÍADES
         box-sizing:border-box;
     }
 
-    .introduccion-proyecto{
-        width:100%;
-        max-width:100%;
-        box-sizing:border-box;
-        padding:0 1.5rem;
-        margin-left:auto;
-        margin-right:auto;
-        text-align:center;
-    }
-
+    
 }
