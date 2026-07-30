@@ -926,18 +926,17 @@ HAMADRÍADES
 
 @media (max-width:768px){
 
-    .sala[href="habitantes.html"] .info h2{
-        max-width:230px;
-        line-height:1.05;
+    .cabecera-serie{
+        text-align:center;
+    }
+
+    .introduccion-proyecto{
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
     }
 
 }
 
-@media (max-width:768px){
 
-    .sala[href="tierradelluvia.html"] .info h2{
-        max-width:230px;
-        line-height:1.05;
-    }
 
-}
