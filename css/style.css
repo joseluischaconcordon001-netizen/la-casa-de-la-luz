@@ -923,19 +923,3 @@ HAMADRÍADES
     }
 
 }
-@media (max-width:768px){
-
-    .sala[href="habitantes.html"] .info{
-        width:100%;
-        text-align:center;
-    }
-
-}
-@media (max-width:768px){
-
-    .sala[href="tierradelluvia.html"] .info{
-        width:100%;
-        text-align:center;
-    }
-
-}
