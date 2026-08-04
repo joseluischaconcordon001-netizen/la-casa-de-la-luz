@@ -16,11 +16,8 @@ html{
 }
 
 body{
-
-    background:#F2EEE7;
-
+    background-color:#DDDCD6;
     color:#2D2A27;
-
 }
 
 .home{
@@ -96,7 +93,7 @@ body{
 
     text-transform:uppercase;
 
-    color:#F4F0E8;
+    color:#DDDCD6;
 
     border-bottom:1px solid transparent;
 
@@ -1010,5 +1007,76 @@ HAMADRÍADES
     color:#8A857F;
     font-size:.9rem;
     letter-spacing:.08em;
+
+}
+
+.modo-contemplacion .fotografias{
+
+...
+}
+
+/* =======================================================
+   MODO CONTEMPLACIÓN · HAMADRÍADES (PRUEBA)
+======================================================= */
+
+.modo-contemplacion .fotografias{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:100%;
+    min-height:75vh;
+
+    margin-top:80px;
+
+    overflow:hidden;
+}
+
+/*======================================================
+ MODO CONTEMPLACIÓN
+======================================================*/
+
+.modo-contemplacion .fotografias{
+
+    position:relative;
+
+    margin-top:80px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:75vh;
+
+}
+
+.modo-contemplacion .visor{
+
+    width:100%;
+
+    min-height:75vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+
+#foto-activa{
+
+    display:block;
+
+    max-width:90%;
+
+    max-height:72vh;
+
+    width:auto;
+
+    height:auto;
 
 }
