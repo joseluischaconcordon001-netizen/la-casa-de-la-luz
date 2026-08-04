@@ -916,7 +916,7 @@ HAMADRÍADES
     }
 
     .recorrido{
-        background-color: #F4F0E8;
+        background-color: #DDDCD6;
     }
 
 }
@@ -1041,7 +1041,7 @@ HAMADRÍADES
 
     position:relative;
 
-    margin-top:80px;
+    margin-top:10px;
 
     display:flex;
 
@@ -1078,5 +1078,84 @@ HAMADRÍADES
     width:auto;
 
     height:auto;
+
+}
+
+/* ===========================
+   VISOR CONTEMPLATIVO
+=========================== */
+
+.modo-contemplacion{
+
+    overflow:hidden;
+
+}
+
+.galeria{
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+.visor{
+
+    flex:1;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:40px;
+
+}
+
+#foto-activa{
+
+    max-width:78vw;
+
+    max-height:68vh;
+
+    object-fit:contain;
+
+}
+
+.navegacion{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    width:100%;
+
+    padding:0 60px 35px;
+
+}
+
+.visor button{
+
+    background:none;
+
+    border:none;
+
+    font-size:2rem;
+
+    color:#666;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.visor button:hover{
+
+    color:#2D2A27;
 
 }
