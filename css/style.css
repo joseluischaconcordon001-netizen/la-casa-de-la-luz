@@ -1159,3 +1159,93 @@ HAMADRÍADES
     color:#2D2A27;
 
 }
+
+/* ============================================
+   AVISO DE CONSENTIMIENTO · GOOGLE ANALYTICS
+   ============================================ */
+
+#consent-banner {
+    position: fixed;
+    left: 30px;
+    right: 30px;
+    bottom: 25px;
+    z-index: 9999;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    padding: 20px 25px;
+
+    background: #DDDCD6;
+    color: #2D2A27;
+
+    border: 1px solid rgba(45,42,39,.15);
+
+    font-family: 'Inter', sans-serif;
+    font-size: .78rem;
+    letter-spacing: .03em;
+    line-height: 1.6;
+}
+
+.consent-text {
+    max-width: 700px;
+}
+
+.consent-buttons {
+    display: flex;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.consent-buttons button {
+    background: none;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-size: .75rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+
+    color: #2D2A27;
+
+    cursor: pointer;
+
+    padding: 5px 0;
+
+    border-bottom: 1px solid transparent;
+
+    transition: .3s ease;
+}
+
+.consent-buttons button:hover {
+    border-bottom-color: #2D2A27;
+}
+
+
+/* MÓVIL */
+
+@media (max-width: 768px) {
+
+    #consent-banner {
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+
+        display: block;
+
+        padding: 18px 20px;
+
+        font-size: .72rem;
+    }
+
+    .consent-text {
+        margin-bottom: 15px;
+    }
+
+    .consent-buttons {
+        gap: 20px;
+    }
+
+}
